@@ -17,16 +17,16 @@ int s;
     for(int i=0;i<n;i++){
         int t=0;
         for(int j=0;j<n;j++){
-            if(arr[i][j]==0){
+            if(arr[j][i]==0){
 t++;
 if(t>m){
     m=t;
-    s=i;
+    s=j;
 }
             }
         }
     }
-    cout<<"the row with max 0 is"<<s<<endl;
+    cout<<"the column with max 0 is"<<s<<endl;
 
 
 
