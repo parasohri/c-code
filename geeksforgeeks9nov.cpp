@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int maxzero();
+paras
 int main(){
 int n;
 cin>>n;
